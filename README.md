@@ -44,6 +44,7 @@ Seaborn — advanced, aesthetic visualization
 
 Jupyter Notebooks — interactive development
 
+
 Development
 
 
@@ -94,60 +95,60 @@ Data Engineers require specialized cloud & big-data tools like AWS, Azure, Spark
 
 Data Analysts rely more on Excel & Tableau for reporting.
 
-Skill Likelihood (Top 5 per Role)
 
-(Replicated with custom Seaborn visualizations)
+## Skill Likelihood (Top 5 per Role)
 
+![Visualizations](Project/Images/result.png)
 
-### Data Analyst
+## Job Benefits Breakdown (Pie Charts)
 
-SQL — 51%
+### Work-From-Home Offered
 
-Excel — 41%
+This chart shows that only 7.5% of Data Analyst roles explicitly offer remote work, while 92.5% require on-site or hybrid attendance.
 
-Tableau — 28%
+### Degree Requirement
 
-Python — 27%
+Approximately 28% of postings require a degree, while 72% do not explicitly list one—showing a trend toward skills over formal education.
 
-SAS — 20%
+### Health Insurance Offered
 
+The chart shows that 35.5% of postings specify health insurance benefits, while 64.5% do not explicitly mention them in the job description.
 
-### Data Engineer
+Together, these benefits charts summarize the most common job requirement and perk trends across the US Data Analyst job market.
 
-SQL — 68%
-
-Python — 65%
-
-AWS — 43%
-
-Azure — 32%
-
-Spark — 32%
+![pie-chart](Project/Images/data-job-requirements.png)
 
 
-### Data Scientist
+## Top 10 Job Locations for Data Analysts in the US
 
-Python — 72%
+This horizontal bar chart displays the cities with the highest number of Data Analyst job postings.
+It highlights “Anywhere” as the dominant category, indicating that remote roles make up a large share of the market.
 
-SQL — 51%
+Major tech and business hubs like New York, Atlanta, Chicago, and Austin also appear prominently, showing the geographic distribution of opportunities across the US.
 
-R — 44%
+![top-10](Project/Images/top-10-locations.png)
 
-SAS — 24%
+## Top Companies Hiring Data Analysts
 
-Tableau — 24%
+This visualization shows the organizations with the most Data Analyst job postings.
+Recruiting firms like Robert Half, Insight Global, and Dice lead the list—demonstrating that staffing agencies play a significant role in data talent acquisition.
 
 
-📊 Visualizations
-Likelihood of Skills Requested in US Job Postings
+![top-companies](Project/Images/count-of-companies.png)
 
-Three Seaborn horizontal bar charts showing the top 5 skills for:
 
-Data Analyst
+### Top Employers Bar Chart – Code Snippet Visualization
 
-Data Engineer
+This image corresponds to the code used to generate the bar chart of top companies.
+It demonstrates:
 
-Data Scientist
+* Preparing a value-count summary of company postings
+
+* Using Seaborn’s barplot for clean, professional visuals
+
+* Adding formatting customizations like color palette, despine, and label cleanup
+
+![top-companies-vs-code](Project/Images/top-10-companies-vs-code.png)
 
 
 ### Each chart includes:
@@ -156,7 +157,7 @@ Data Scientist
 ✔ Sorted bars
 ✔ Professional color palette
 
-Notebook: 2_Skills_Count.ipynb
+Notebook: [2.Skill_Count.ipynb](Project/2.Skill_Count.ipynb)
 
 ## Repository Structure
 ```
@@ -197,6 +198,8 @@ Focus on the notebooks under `Project/`, which contain the analysis summarized i
 5. (Optional) Extend the empty `Project/2.Skill_Count.ipynb` notebook with additional aggregations over the `job_skills` list—e.g., explode the lists and compute frequency ranks.
 
 All charts render inline, making it easy to iterate on styling or drill further into specific subsets.
+
+
 
 ## Key Questions & Insights
 - **Where are the jobs?** The first bar chart highlights the 10 U.S. cities/regions with the most postings, helping prioritize job searches geographically.
