@@ -4,7 +4,7 @@ Welcome to my end-to-end analysis of the US data job market, focusing on the mos
 
 This project was created to better understand the evolving expectations of employers and identify the top skills needed to stay competitive in the data field.
 
-### 🔍 Overview
+### Overview
 
 This project analyzes a real dataset from US job postings, containing:
 
@@ -21,7 +21,7 @@ Essential requirements (degree, remote work, benefits)
 Using Python, I cleaned, analyzed, and visualized this dataset to answer key questions about demand, required skills, and trends across the most common data roles.
 
 
-### ❓ The Questions I Answered
+### The Questions I Answered
 
 * What are the most in-demand skills for the top 3 most popular data roles?
 
@@ -32,7 +32,7 @@ Using Python, I cleaned, analyzed, and visualized this dataset to answer key que
 * What skills should aspiring Data Analysts and Engineers prioritize?
 
 
-### 🛠 Tools & Technologies Used
+### Tools & Technologies Used
 
 * Python Ecosystem
 
@@ -52,7 +52,7 @@ Using Python, I cleaned, analyzed, and visualized this dataset to answer key que
 * Git & GitHub for version control and publishing
 
 
-### 🧹 Data Preparation & Cleanup
+### Data Preparation & Cleanup
 
 The preprocessing workflow included:
 
@@ -71,7 +71,7 @@ Calculating:
 
 * Creating aggregated datasets for visualization
 
-### 📈 Key Findings
+### Key Findings
 1. Most Requested Skills by Role
 
 The analysis shows:
@@ -141,10 +141,11 @@ It demonstrates:
 
 
 ### Each chart includes:
-✔ Clean Seaborn theme
-✔ Percent labels
-✔ Sorted bars
-✔ Professional color palette
+
+* Clean Seaborn theme
+* Percent labels
+* Sorted bars
+* Professional color palette
 
 Notebook: [2.Skill_Count.ipynb](Project/2.Skill_Count.ipynb)
 
