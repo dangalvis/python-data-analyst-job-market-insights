@@ -140,6 +140,24 @@ It demonstrates:
 ![top-companies-vs-code](Project/Images/top-10-companies-vs-code.png)
 
 
+### How are in-demand skills trending for Data Analysts over time?
+
+To understand how required skills evolved over the year, I analyzed Data Analyst job postings on a month-by-month basis. This helped reveal which technical skills are growing in demand and which ones are becoming less common across job descriptions.
+
+### Methodology
+
+1. Aggregate skill counts monthly
+I grouped all job postings by month and counted how often each skill appeared.
+
+2. Re-analyze using percentages
+Since the total number of job postings changes each month, I converted skill counts into percentages to normalize the data and ensure accurate trend comparison.
+
+3. Visualize monthly skill demand
+I plotted the top skills over time to highlight which tools and technologies are gaining or losing traction among employers.
+
+![skill-tred](Project/Images/skill-trend.png)
+
+
 ### Each chart includes:
 
 * Clean Seaborn theme
