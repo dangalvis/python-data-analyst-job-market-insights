@@ -1,99 +1,88 @@
-### Data Analyst Job Market Insights (US)
+## Data Analyst Job Market Insights (US)
 
 Welcome to my end-to-end analysis of the US data job market, focusing on the most in-demand skills, salary trends, and role-specific insights across Data Analysts, Data Engineers, and Data Scientists.
 
 This project was created to better understand the evolving expectations of employers and identify the top skills needed to stay competitive in the data field.
 
-🔍 Overview
+### 🔍 Overview
 
 This project analyzes a real dataset from US job postings, containing:
 
-Job titles
+* Job titles
 
-Skills
+* Skills
 
-Salaries
+* Salaries
 
-Locations
+* Locations
 
 Essential requirements (degree, remote work, benefits)
 
 Using Python, I cleaned, analyzed, and visualized this dataset to answer key questions about demand, required skills, and trends across the most common data roles.
 
 
-❓ The Questions I Answered
+### ❓ The Questions I Answered
 
-What are the most in-demand skills for the top 3 most popular data roles?
+* What are the most in-demand skills for the top 3 most popular data roles?
 
-How are in-demand skills trending for Data Analysts over time?
+* How are in-demand skills trending for Data Analysts over time?
 
-Which roles require degrees, remote work availability, and other benefits?
+* Which roles require degrees, remote work availability, and other benefits?
 
-What skills should aspiring Data Analysts and Engineers prioritize?
-
-
-🛠 Tools & Technologies Used
-
-Python Ecosystem
-
-Pandas — data cleaning & manipulation
-
-Matplotlib — base data visualization
-
-Seaborn — advanced, aesthetic visualization
-
-Jupyter Notebooks — interactive development
+* What skills should aspiring Data Analysts and Engineers prioritize?
 
 
-Development
+### 🛠 Tools & Technologies Used
+
+* Python Ecosystem
+
+* Pandas — data cleaning & manipulation
+
+* Matplotlib — base data visualization
+
+* Seaborn — advanced, aesthetic visualization
+
+* Jupyter Notebooks — interactive development
 
 
-Visual Studio Code
+### Development
 
-Git & GitHub for version control and publishing
+* Visual Studio Code
+
+* Git & GitHub for version control and publishing
 
 
-🧹 Data Preparation & Cleanup
+### 🧹 Data Preparation & Cleanup
 
 The preprocessing workflow included:
 
-Importing raw job posting data
+* Importing raw job posting data
 
-Cleaning the skill text column
+* Cleaning the skill text column
 
 
 ### Splitting skills into lists
 
 Calculating:
 
-Skill frequency
+* Skill frequency
 
-Skill percentage per job title
+* Skill percentage per job title
 
-Creating aggregated datasets for visualization
+* Creating aggregated datasets for visualization
 
-
-Detailed steps are available inside the notebooks:
-
-1.EDA.ipynb – Exploratory analysis
-
-2_Skills_Count.ipynb – Skill frequency breakdown
-
-3_Skills_Trend.ipynb – Skill trending over time
-
-
-📈 Key Findings
+### 📈 Key Findings
 1. Most Requested Skills by Role
 
 The analysis shows:
 
-SQL is the #1 most requested skill for Data Analysts and Data Scientists.
+* SQL is the #1 most requested skill for Data Analysts and Data Scientists.
 
-Python dominates jobs for Data Engineers (65–70% of postings).
+* Python dominates jobs for Data Engineers (65–70% of postings).
 
-Data Engineers require specialized cloud & big-data tools like AWS, Azure, Spark.
+* Data Engineers require specialized cloud & big-data tools like AWS, Azure, Spark.
 
-Data Analysts rely more on Excel & Tableau for reporting.
+* Data Analysts rely more on Excel & Tableau for reporting.
 
 
 ## Skill Likelihood (Top 5 per Role)
